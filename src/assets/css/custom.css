@@ -106,3 +106,58 @@
 }
 
 /* end services section */
+
+/* navbar section */
+
+.navbar {
+    padding: 20px 0 !important;
+}
+
+.navBackground {
+    -webkit-transition: background-color 400ms linear;
+    -moz-transition: background-color 400ms linear;
+    -o-transition: background-color 400ms linear;
+    transition: background-color 400ms linear;
+    background-color: rgb(00, 00, 00,0.0);
+}
+
+.navBackgroundScroll {
+    -webkit-transition: background-color 400ms linear;
+    -moz-transition: background-color 400ms linear;
+    -o-transition: background-color 400ms linear;
+    transition: background-color 400ms linear;
+    background-color: #f8f9fa;
+    box-shadow: 0 0 10px rgba(0,0,0,.09);
+}
+
+.navTitle {
+    color: #f8f9fa !important;
+    font-weight: 700;
+    font-size: 30px !important;
+}
+
+.navTitleScroll {
+    color: #2d2e32 !important;
+    font-weight: 700;
+    font-size: 30px !important;
+}
+
+.navItem {
+    color: #f8f9fa !important;
+    font-weight: 500 !important;
+}
+
+.navItem:hover {
+    color: #ffc107 !important;
+}
+
+.navItemScroll {
+    color: #2d2e32 !important;
+    font-weight: 500 !important;
+}
+
+.navItemScroll:hover {
+    color: #ffc107 !important;
+}
+
+/* end navbar section */
