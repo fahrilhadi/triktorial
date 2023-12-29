@@ -37,3 +37,72 @@
 }
 
 /* end banner section */
+
+/* services section */
+
+.serviceContainer {
+    background-color: #f8f9fa;
+    padding: 5rem 0;
+}
+
+.serviceMainTitle {
+    color: #2d2e32;
+    margin-bottom: 3rem;
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.bottom {
+    background: #ffc107 none repeat scroll 0 0;
+    height: 3px;
+    width: 100px;
+    margin: -1.9rem auto 0;
+    margin-bottom: 3rem;
+}
+
+.serviceCard {
+    margin: 5px 5px 5px 5px;
+    height: 22rem;
+    padding: 60px 30px 60px 30px;
+    border-radius: 7px;
+    box-shadow: 0 0 8px 0 rgba(22, 22, 22, 0.185)
+}
+
+.serviceCard:hover {
+    margin: 5px 5px 5px 5px;
+    height: 22rem;
+    padding: 60px 30px 60px 30px;
+    border-radius: 7px;
+    box-shadow: 0 0 16px 0 rgba(22, 22, 22, 0.185)
+}
+
+.designIcon {
+    height: 100px;
+    width: 100px;
+}
+
+.ecommerceIcon {
+    height: 100px;
+    width: 100px;
+}
+
+.webIcon {
+    height: 100px;
+    width: 100px;
+}
+
+.serviceName {
+    color: #2d2e32;
+    margin-top: 1rem;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.serviceDescription {
+    color: #555555;
+    margin-top: 1rem;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+/* end services section */
