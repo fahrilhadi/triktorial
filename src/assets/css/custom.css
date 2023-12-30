@@ -166,6 +166,7 @@
 
 .analysisContainer {
     background-color: #f8f9fa;
+    padding-bottom: 5rem;
 }
 
 .analysisDescription {
@@ -177,3 +178,77 @@
 }
 
 /* end analysis section */
+
+/* summary section */
+
+.summaryBanner {
+    background-image: url('../images/SummaryImage/summary.jpg');
+    min-height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.summaryBannerOverlay {
+    position: absolute;
+    min-height: 400px;
+    width: 100%;
+    background: rgba(45, 46, 50, 0.805);
+}
+
+.countSection {
+    margin-top: 20% !important;
+}
+
+.countNumber {
+    color: #f8f9fa;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.countTitle {
+    color: #ffc107;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.cardTitle {
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.cardSubTitle {
+    color: #2d2e32;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: justify;
+}
+
+.workCard {
+    margin-top: 25%;
+    padding: 10px 10px 10px 10px;
+    border-radius: 3px;
+}
+
+.iconBullent {
+    color: #2d2e32;
+    font-size: 16px;
+}
+
+.iconProject {
+    color: #f8f9fa;
+    font-size: 40px;
+}
+
+.lineSummary {
+    background: #f8f9fa none repeat scroll 0 0;
+    height: 3px;
+    width: 100px;
+    margin: -1.9rem auto 0;
+    margin-top: 1rem;
+}
+
+/* end summary section */

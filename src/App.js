@@ -3,6 +3,7 @@ import NavbarComponent from './components/NavbarComponent/NavbarComponent';
 import BannerComponent from './components/BannerComponent/BannerComponent';
 import ServicesComponent from './components/ServicesComponent/ServicesComponent';
 import AnalysisComponent from './components/AnalysisComponent/AnalysisComponent';
+import SummaryComponent from './components/SummaryComponent/SummaryComponent';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <BannerComponent />
       <ServicesComponent />
       <AnalysisComponent />
+      <SummaryComponent />
     </div>
   );
 }
