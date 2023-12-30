@@ -275,3 +275,45 @@
 }
 
 /* end recent projects section */
+
+/* courses section */
+
+.coursesContainer {
+    background-color: #f8f9fa;
+}
+
+.coursesImage {
+    width: 100%;
+}
+
+.coursesName {
+    color: #2d2e32;
+    margin-top: 1rem;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: justify;
+}
+
+.coursesDescription {
+    color: #555555;
+    margin-top: 1rem;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: justify;
+}
+
+.coursesViewDetails {
+    color: #2d2e32;
+    font-weight: 700;
+    font-size: 15px;
+    text-decoration: none;
+    float: left;
+    cursor: pointer;
+}
+
+.coursesViewDetails:hover {
+    color: #ffc107;
+    cursor: pointer;
+}
+
+/* end courses section */

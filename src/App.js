@@ -5,6 +5,7 @@ import ServicesComponent from './components/ServicesComponent/ServicesComponent'
 import AnalysisComponent from './components/AnalysisComponent/AnalysisComponent';
 import SummaryComponent from './components/SummaryComponent/SummaryComponent';
 import RecentProjectsComponent from './components/RecentProjectsComponent/RecentProjectsComponent';
+import CoursesComponent from './components/CoursesComponent/CoursesComponent';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <AnalysisComponent />
       <SummaryComponent />
       <RecentProjectsComponent />
+      <CoursesComponent />
     </div>
   );
 }
