@@ -214,8 +214,7 @@
 }
 
 .cardTitle {
-    color: #000000;
-    font-family: 'Poppins', sans-serif;
+    color: #2d2e32;
     font-weight: 700;
     font-size: 15px;
 }
@@ -252,3 +251,27 @@
 }
 
 /* end summary section */
+
+/* recent projects section */
+
+.recentProjectsContainer {
+    background-color: #f8f9fa;
+    padding: 5rem 0;
+}
+
+.projectsCard {
+    background: #f8f9fa !important;
+    width: 20em;
+    border-radius: 0.6em;
+    margin: 1em;
+    cursor: pointer;
+    box-shadow: 0 13px 25px -5px;
+    transition: all ease 200ms;
+}
+
+.projectsCard:hover {
+    transform: scale(1.03);
+    box-shadow: 0 13px 30px -5px;
+}
+
+/* end recent projects section */
