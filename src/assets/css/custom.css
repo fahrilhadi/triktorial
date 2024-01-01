@@ -599,3 +599,12 @@ a.twitter:hover {
 }
 
 /* end refund policy section */
+
+/* terms and condition section */
+
+.termsConditionContainer {
+    background-color: #f8f9fa;
+    padding: 5rem 0;
+}
+
+/* end terms and condition section */
