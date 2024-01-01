@@ -1,10 +1,16 @@
 import React from 'react';
-import CoursesPage from './pages/CoursesPage/CoursesPage';
+import NavbarComponent from './components/NavbarComponent/NavbarComponent';
+import TopPageComponent from './components/TopPageComponent/TopPageComponent';
+import AllProjectsComponent from './components/AllProjectsComponent/AllProjectsComponent';
+import FooterComponent from './components/FooterComponent/FooterComponent';
 
 function App() {
   return (
     <div>
-      <CoursesPage />
+      <NavbarComponent />
+      <TopPageComponent pagetitle="Our Portfolio" />
+      <AllProjectsComponent />
+      <FooterComponent />
     </div>
   );
 }
