@@ -560,3 +560,12 @@ a.twitter:hover {
 }
 
 /* end top page section */
+
+/* about description section */
+
+.aboutDescriptionContainer {
+    background-color: #f8f9fa;
+    padding-bottom: 5rem;
+}
+
+/* end about description section */

@@ -1,14 +1,10 @@
 import React from 'react';
-import TopPageComponent from './components/TopPageComponent/TopPageComponent';
-import NavbarComponent from './components/NavbarComponent/NavbarComponent';
-import AboutDescriptionComponent from './components/AboutDescriptionComponent/AboutDescriptionComponent';
+import AboutPage from './pages/AboutPage/AboutPage';
 
 function App() {
   return (
     <div>
-      <NavbarComponent />
-      <TopPageComponent pagetitle="About Us" />
-      <AboutDescriptionComponent />
+      <AboutPage />
     </div>
   );
 }
