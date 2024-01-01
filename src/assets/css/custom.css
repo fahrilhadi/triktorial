@@ -608,3 +608,12 @@ a.twitter:hover {
 }
 
 /* end terms and condition section */
+
+/* privacy policy section */
+
+.privacyPolicyContainer {
+    background-color: #f8f9fa;
+    padding: 5rem 0;
+}
+
+/* end privacy policy section */
