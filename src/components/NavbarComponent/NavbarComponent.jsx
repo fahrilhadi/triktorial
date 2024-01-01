@@ -40,12 +40,12 @@ class NavbarComponent extends Component {
                         
                     </Nav>
                     <Nav>
-                        <Nav.Link><NavLink className={this.state.navBarItem} to="/">Home</NavLink></Nav.Link>
-                        <Nav.Link><NavLink className={this.state.navBarItem} to="/about">About</NavLink></Nav.Link>
-                        <Nav.Link><NavLink className={this.state.navBarItem} to="/services">Services</NavLink></Nav.Link>
-                        <Nav.Link><NavLink className={this.state.navBarItem} to="/courses">Courses</NavLink></Nav.Link>
-                        <Nav.Link><NavLink className={this.state.navBarItem} to="/portfolio">Portfolio</NavLink></Nav.Link>
-                        <Nav.Link><NavLink className={this.state.navBarItem} to="/contact">Contact</NavLink></Nav.Link>
+                        <Nav.Link><NavLink className={this.state.navBarItem} style={({isActive})=>{return {color: isActive? '#ffc107':''}}} to="/" end>Home</NavLink></Nav.Link>
+                        <Nav.Link><NavLink className={this.state.navBarItem} style={({isActive})=>{return {color: isActive? '#ffc107':''}}} to="/about" end>About</NavLink></Nav.Link>
+                        <Nav.Link><NavLink className={this.state.navBarItem} style={({isActive})=>{return {color: isActive? '#ffc107':''}}} to="/services" end>Services</NavLink></Nav.Link>
+                        <Nav.Link><NavLink className={this.state.navBarItem} style={({isActive})=>{return {color: isActive? '#ffc107':''}}} to="/courses" end>Courses</NavLink></Nav.Link>
+                        <Nav.Link><NavLink className={this.state.navBarItem} style={({isActive})=>{return {color: isActive? '#ffc107':''}}} to="/portfolio" end>Portfolio</NavLink></Nav.Link>
+                        <Nav.Link><NavLink className={this.state.navBarItem} style={({isActive})=>{return {color: isActive? '#ffc107':''}}} to="/contact" end>Contact</NavLink></Nav.Link>
                     </Nav>
                     </Navbar.Collapse>
                 </Container>
