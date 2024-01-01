@@ -35,12 +35,12 @@ class FooterComponent extends Component {
                     <Col lg={3} md={6} sm={12} className="p-5">
                         <h2 className="footerName">Information</h2>
                         <div className="pb-2">
-                            <a className="footerLink" href="#">About Me</a>
+                            <NavLink className="footerLink" to="/about">About Me</NavLink>
                         </div>
                         <div className="pb-2">
-                            <a className="footerLink" href="#">Company Profile</a>
+                            <NavLink className="footerLink" to="/about">Company Profile</NavLink>
                         </div>
-                        <a className="footerLink" href="#">Contact Us</a>
+                        <NavLink className="footerLink" style={({isActive})=>{return {color: isActive? '#ffc107':''}}} to="/contact" end>Contact Us</NavLink>
                     </Col>
                     <Col lg={3} md={6} sm={12} className="p-5">
                         <h2 className="footerName">Policy</h2>
