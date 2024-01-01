@@ -590,3 +590,12 @@ a.twitter:hover {
 }
 
 /* end contact section */
+
+/* refund policy section */
+
+.refundPolicyContainer {
+    background-color: #f8f9fa;
+    padding: 5rem 0;
+}
+
+/* end refund policy section */
