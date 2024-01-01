@@ -6,13 +6,14 @@ import '../../assets/css/bootstrap.min.css'
 
 class NavbarComponent extends Component {
 
-    constructor(){
+    constructor(props){
         super();
         this.state={
             navBarTitle:"navTitle",
             navVariant:"dark",
             navBarBackground:"navBackground",
-            navBarItem:"navItem"
+            navBarItem:"navItem",
+            pageTitle:props.title
         }
     }
 
@@ -31,6 +32,7 @@ class NavbarComponent extends Component {
   render() {
     return (
         <Fragment>
+            <title>{this.state.pageTitle}</title>
             <Navbar className={this.state.navBarBackground} collapseOnSelect fixed="top" expand="lg" variant={this.state.navVariant}>
                 <Container className="text-center">
                     <Navbar.Brand className={this.state.navBarTitle} href="#">Triktorial</Navbar.Brand>

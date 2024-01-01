@@ -8,7 +8,7 @@ class PortfolioPage extends Component {
   render() {
     return (
         <Fragment>
-            <NavbarComponent />
+            <NavbarComponent title="Our Portfolio | Triktorial" />
             <TopPageComponent pagetitle="Our Portfolio" />
             <AllProjectsComponent />
             <FooterComponent />

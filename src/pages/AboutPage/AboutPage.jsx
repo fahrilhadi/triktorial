@@ -9,7 +9,7 @@ class AboutPage extends Component {
   render() {
     return (
         <Fragment>
-            <NavbarComponent />
+            <NavbarComponent title="About Us | Triktorial" />
             <TopPageComponent pagetitle="About Us" />
             <AboutComponent />
             <AboutDescriptionComponent />

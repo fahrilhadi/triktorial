@@ -9,7 +9,7 @@ class ServicesPage extends Component {
   render() {
     return (
         <Fragment>
-            <NavbarComponent />
+            <NavbarComponent title="Our Services | Triktorial" />
             <TopPageComponent pagetitle="Our Services" />
             <ServicesComponent />
             <ContactComponent />

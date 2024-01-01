@@ -8,7 +8,7 @@ class CoursesPage extends Component {
   render() {
     return (
         <Fragment>
-            <NavbarComponent />
+            <NavbarComponent title="All Courses | Triktorial" />
             <TopPageComponent pagetitle="All Courses" />
             <AllCoursesComponent />
             <FooterComponent />

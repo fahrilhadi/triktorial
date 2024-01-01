@@ -8,7 +8,7 @@ class ContactPage extends Component {
   render() {
     return (
         <Fragment>
-            <NavbarComponent />
+            <NavbarComponent title="Contact Us | Triktorial" />
             <TopPageComponent pagetitle="Contact Us" />
             <ContactComponent />
             <FooterComponent />
