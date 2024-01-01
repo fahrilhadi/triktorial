@@ -1,10 +1,10 @@
 import React from 'react';
-import ContactPage from './pages/ContactPage/ContactPage';
+import ServicesPage from './pages/ServicesPage/ServicesPage';
 
 function App() {
   return (
     <div>
-      <ContactPage />
+      <ServicesPage />
     </div>
   );
 }
