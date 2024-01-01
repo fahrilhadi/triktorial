@@ -3,6 +3,7 @@ import { Col, Container, Row } from 'react-bootstrap'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebook, faTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons'
 import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons'
+import { NavLink } from 'react-router-dom'
 
 class FooterComponent extends Component {
   render() {
@@ -44,7 +45,7 @@ class FooterComponent extends Component {
                     <Col lg={3} md={6} sm={12} className="p-5">
                         <h2 className="footerName">Policy</h2>
                         <div className="pb-2">
-                            <a className="footerLink" href="#">Refund Policy</a>
+                            <NavLink className="footerLink" style={({isActive})=>{return {color: isActive? '#ffc107':''}}} to="/refund" end>Refund Policy</NavLink>
                         </div>
                         <div className="pb-2">
                             <a className="footerLink" href="#">Terms and Condition</a>
