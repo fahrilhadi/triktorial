@@ -1,10 +1,13 @@
 import React from 'react';
-import ServicesPage from './pages/ServicesPage/ServicesPage';
+import { BrowserRouter } from 'react-router-dom';
+import AppRouter from './router/AppRouter';
 
 function App() {
   return (
     <div>
-      <ServicesPage />
+      <BrowserRouter>
+        <AppRouter />
+      </BrowserRouter>
     </div>
   );
 }

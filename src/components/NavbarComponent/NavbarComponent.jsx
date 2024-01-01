@@ -1,5 +1,6 @@
 import React, { Component, Fragment } from 'react'
 import { Container, Nav, Navbar } from 'react-bootstrap'
+import { NavLink } from 'react-router-dom';
 import '../../assets/css/custom.css'
 import '../../assets/css/bootstrap.min.css'
 
@@ -39,12 +40,12 @@ class NavbarComponent extends Component {
                         
                     </Nav>
                     <Nav>
-                        <Nav.Link className={this.state.navBarItem} href="#">Home</Nav.Link>
-                        <Nav.Link className={this.state.navBarItem} href="#">About</Nav.Link>
-                        <Nav.Link className={this.state.navBarItem} href="#">Services</Nav.Link>
-                        <Nav.Link className={this.state.navBarItem} href="#">Courses</Nav.Link>
-                        <Nav.Link className={this.state.navBarItem} href="#">Portfolio</Nav.Link>
-                        <Nav.Link className={this.state.navBarItem} href="#">Contact</Nav.Link>
+                        <Nav.Link><NavLink className={this.state.navBarItem} to="/">Home</NavLink></Nav.Link>
+                        <Nav.Link><NavLink className={this.state.navBarItem} to="/about">About</NavLink></Nav.Link>
+                        <Nav.Link><NavLink className={this.state.navBarItem} to="/services">Services</NavLink></Nav.Link>
+                        <Nav.Link><NavLink className={this.state.navBarItem} to="/courses">Courses</NavLink></Nav.Link>
+                        <Nav.Link><NavLink className={this.state.navBarItem} to="/portfolio">Portfolio</NavLink></Nav.Link>
+                        <Nav.Link><NavLink className={this.state.navBarItem} to="/contact">Contact</NavLink></Nav.Link>
                     </Nav>
                     </Navbar.Collapse>
                 </Container>
