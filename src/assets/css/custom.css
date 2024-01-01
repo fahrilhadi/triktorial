@@ -569,3 +569,13 @@ a.twitter:hover {
 }
 
 /* end about description section */
+
+/* all courses section */
+
+.allCoursesContainer {
+    background-color: #f8f9fa;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+/* end all courses section */
