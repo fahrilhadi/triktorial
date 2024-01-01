@@ -1,10 +1,12 @@
 import React from 'react';
-import HomePage from './pages/HomePage/HomePage';
+import TopPageComponent from './components/TopPageComponent/TopPageComponent';
+import NavbarComponent from './components/NavbarComponent/NavbarComponent';
 
 function App() {
   return (
     <div>
-      <HomePage />
+      <NavbarComponent />
+      <TopPageComponent pagetitle="About Us" />
     </div>
   );
 }

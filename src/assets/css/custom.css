@@ -530,3 +530,33 @@ a.twitter:hover {
 }
 
 /* end footer section */
+
+/* top page section */
+
+.topPageContainer {
+    background-image: url("../images/TopPageImage/top.jpg");
+    min-height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.topPageOverlay {
+    position: absolute;
+    min-height: 300px;
+    width: 100%;
+    background: rgba(45, 46, 50, 0.928);
+}
+
+.topPageContent {
+    margin-top: 10em;
+}
+
+.topPageTitle {
+    font-weight: 700;
+    color: #ffc107;
+    font-size: 64px;
+}
+
+/* end top page section */
