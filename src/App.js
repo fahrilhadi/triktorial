@@ -9,6 +9,7 @@ import CoursesComponent from './components/CoursesComponent/CoursesComponent';
 import VideoComponent from './components/VideoComponent/VideoComponent';
 import TestimonialComponent from './components/TestimonialComponent/TestimonialComponent';
 import AboutComponent from './components/AboutComponent/AboutComponent';
+import FooterComponent from './components/FooterComponent/FooterComponent';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
       <VideoComponent />
       <TestimonialComponent />
       <AboutComponent />
+      <FooterComponent />
     </div>
   );
 }
