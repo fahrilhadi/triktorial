@@ -48,7 +48,7 @@ class FooterComponent extends Component {
                             <NavLink className="footerLink" style={({isActive})=>{return {color: isActive? '#ffc107':''}}} to="/refund" end>Refund Policy</NavLink>
                         </div>
                         <div className="pb-2">
-                            <a className="footerLink" href="#">Terms and Condition</a>
+                            <NavLink className="footerLink" style={({isActive})=>{return {color: isActive? '#ffc107':''}}} to="/terms" end>Terms and Condition</NavLink>
                         </div>
                         <a className="footerLink" href="#">Privacy and Policy</a>
                     </Col>
