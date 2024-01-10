@@ -1,6 +1,6 @@
 import React, { Component, Fragment } from 'react'
-import { Container, Nav, Navbar } from 'react-bootstrap'
-import { NavLink } from 'react-router-dom';
+import { Container, Nav, Navbar, NavbarBrand } from 'react-bootstrap'
+import { Link, NavLink } from 'react-router-dom';
 import '../../assets/css/custom.css'
 import '../../assets/css/bootstrap.min.css'
 
@@ -35,7 +35,7 @@ class NavbarComponent extends Component {
             <title>{this.state.pageTitle}</title>
             <Navbar className={this.state.navBarBackground} collapseOnSelect fixed="top" expand="lg" variant={this.state.navVariant}>
                 <Container className="text-center">
-                    <Navbar.Brand className={this.state.navBarTitle} href="#">Triktorial</Navbar.Brand>
+                    <Navbar.Brand><NavLink className={this.state.navBarTitle} to="/">Triktorial</NavLink></Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="me-auto">

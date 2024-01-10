@@ -138,12 +138,14 @@ body {
     color: #f8f9fa !important;
     font-weight: 700;
     font-size: 30px !important;
+    text-decoration: none;
 }
 
 .navTitleScroll {
     color: #2d2e32 !important;
     font-weight: 700;
     font-size: 30px !important;
+    text-decoration: none;
 }
 
 .navItem {
