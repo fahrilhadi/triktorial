@@ -5,6 +5,9 @@ import PrivacyPolicyComponent from '../../components/PrivacyPolicyComponent/Priv
 import FooterComponent from '../../components/FooterComponent/FooterComponent'
 
 class PrivacyPolicyPage extends Component {
+  componentDidMount(){
+    window.scroll(0,0)
+  }
   render() {
     return (
         <Fragment>

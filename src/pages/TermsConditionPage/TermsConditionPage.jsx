@@ -5,6 +5,9 @@ import TermsConditionComponent from '../../components/TermsConditionComponent/Te
 import FooterComponent from '../../components/FooterComponent/FooterComponent'
 
 class TermsConditionPage extends Component {
+  componentDidMount(){
+    window.scroll(0,0)
+  }
   render() {
     return (
         <Fragment>
