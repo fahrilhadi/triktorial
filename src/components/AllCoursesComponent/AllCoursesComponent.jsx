@@ -1,5 +1,6 @@
 import React, { Component, Fragment } from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
+import { Link } from 'react-router-dom'
 
 class AllCoursesComponent extends Component {
   render() {
@@ -18,7 +19,7 @@ class AllCoursesComponent extends Component {
                                     <Col lg={6} md={6} sm={12}>
                                         <h5 className="coursesName">HTML</h5>
                                         <p className="coursesDescription">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus, incidunt.</p>
-                                        <a className="coursesViewDetails" href="#">View Details</a>
+                                        <Link className="coursesViewDetails" to="/coursedetails">View Details</Link>
                                     </Col>
                                     <Col lg={6} md={6} sm={12} className="mb-4">
                                         <img className="coursesImage" src="https://img.freepik.com/free-photo/close-up-woman-online-class_23-2148888816.jpg?size=626&ext=jpg&ga=GA1.2.825472607.1700482803&semt=sph" />
@@ -26,7 +27,7 @@ class AllCoursesComponent extends Component {
                                     <Col lg={6} md={6} sm={12}>
                                         <h5 className="coursesName">CSS</h5>
                                         <p className="coursesDescription">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore, blanditiis.</p>
-                                        <a className="coursesViewDetails" href="#">View Details</a>
+                                        <Link className="coursesViewDetails" to="/coursedetails">View Details</Link>
                                     </Col>
                                     <Col lg={6} md={6} sm={12} className="mb-4">
                                         <img className="coursesImage" src="https://img.freepik.com/free-photo/discussing-video-course_1098-13061.jpg?w=1480&t=st=1703934040~exp=1703934640~hmac=cb2a423f5b2f6ceab68034280b41e640c1e3b72f97fd44a6ecde62fc0fe9c70c" />
@@ -34,7 +35,7 @@ class AllCoursesComponent extends Component {
                                     <Col lg={6} md={6} sm={12}>
                                         <h5 className="coursesName">ReactJs</h5>
                                         <p className="coursesDescription">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus, incidunt.</p>
-                                        <a className="coursesViewDetails" href="#">View Details</a>
+                                        <Link className="coursesViewDetails" to="/coursedetails">View Details</Link>
                                     </Col>
                                     <Col lg={6} md={6} sm={12} className="mb-4">
                                         <img className="coursesImage" src="https://img.freepik.com/free-photo/close-up-woman-online-class_23-2148888816.jpg?size=626&ext=jpg&ga=GA1.2.825472607.1700482803&semt=sph" />
@@ -42,7 +43,7 @@ class AllCoursesComponent extends Component {
                                     <Col lg={6} md={6} sm={12}>
                                         <h5 className="coursesName">Laravel</h5>
                                         <p className="coursesDescription">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore, blanditiis.</p>
-                                        <a className="coursesViewDetails" href="#">View Details</a>
+                                        <Link className="coursesViewDetails" to="/coursedetails">View Details</Link>
                                     </Col>
                                 </Row>
                             </Col>
@@ -54,7 +55,7 @@ class AllCoursesComponent extends Component {
                                     <Col lg={6} md={6} sm={12}>
                                         <h5 className="coursesName">Javascript</h5>
                                         <p className="coursesDescription">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus, incidunt.</p>
-                                        <a className="coursesViewDetails" href="#">View Details</a>
+                                        <Link className="coursesViewDetails" to="/coursedetails">View Details</Link>
                                     </Col>
                                     <Col lg={6} md={6} sm={12} className="mb-4">
                                         <img className="coursesImage" src="https://img.freepik.com/free-photo/young-businessman-working-with-computer-remotely_1328-3388.jpg?size=626&ext=jpg&ga=GA1.1.825472607.1700482803&semt=sph" />
@@ -62,7 +63,7 @@ class AllCoursesComponent extends Component {
                                     <Col lg={6} md={6} sm={12}>
                                         <h5 className="coursesName">PHP</h5>
                                         <p className="coursesDescription">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore, blanditiis.</p>
-                                        <a className="coursesViewDetails" href="#">View Details</a>
+                                        <Link className="coursesViewDetails" to="/coursedetails">View Details</Link>
                                     </Col>
                                     <Col lg={6} md={6} sm={12} className="mb-4">
                                         <img className="coursesImage" src="https://img.freepik.com/free-photo/close-up-woman-class_23-2148888812.jpg?size=626&ext=jpg&ga=GA1.2.825472607.1700482803&semt=sph" />
@@ -70,7 +71,7 @@ class AllCoursesComponent extends Component {
                                     <Col lg={6} md={6} sm={12}>
                                         <h5 className="coursesName">NodeJs</h5>
                                         <p className="coursesDescription">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus, incidunt.</p>
-                                        <a className="coursesViewDetails" href="#">View Details</a>
+                                        <Link className="coursesViewDetails" to="/coursedetails">View Details</Link>
                                     </Col>
                                     <Col lg={6} md={6} sm={12} className="mb-4">
                                         <img className="coursesImage" src="https://img.freepik.com/free-photo/young-businessman-working-with-computer-remotely_1328-3388.jpg?size=626&ext=jpg&ga=GA1.1.825472607.1700482803&semt=sph" />
@@ -78,7 +79,7 @@ class AllCoursesComponent extends Component {
                                     <Col lg={6} md={6} sm={12}>
                                         <h5 className="coursesName">MongoDB</h5>
                                         <p className="coursesDescription">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore, blanditiis.</p>
-                                        <a className="coursesViewDetails" href="#">View Details</a>
+                                        <Link className="coursesViewDetails" to="/coursedetails">View Details</Link>
                                     </Col>
                                 </Row>
                             </Col>

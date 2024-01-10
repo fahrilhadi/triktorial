@@ -757,3 +757,48 @@ a.twitter:hover {
 }
 
 /* end project details section */
+
+/* course details section */
+
+.courseDetailsText {
+    font-weight: 700;
+    color: #2d2e32;
+    font-size: 35px;
+}
+
+.courseDetailsImg {
+    width: 100%;
+}
+
+.courseAllDescription {
+    font-size: 15px;
+    color: #2d2e32;
+}
+
+.widget_feature {
+    border: 1px solid #CBD6E2;
+}
+
+.widget_feature ul {
+    padding: 0 25px 20px;
+}
+
+.widget_feature ul li {
+    color: #2d2e32;
+    font-size: 16px;
+    margin-bottom: 9px;
+    list-style: none;
+}
+
+.widget_feature ul li span {
+    color: #2d2e32;
+    font-weight: 700;
+    margin-right: 5px;
+}
+
+.widget_feature .price-wrap {
+    background-color: #F0F4F9;
+    padding: 34px 23px 40px;
+}
+
+/* end course details section */
