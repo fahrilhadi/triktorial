@@ -9,6 +9,7 @@ import ContactPage from '../pages/ContactPage/ContactPage'
 import RefundPolicyPage from '../pages/RefundPolicyPage/RefundPolicyPage'
 import TermsConditionPage from '../pages/TermsConditionPage/TermsConditionPage'
 import PrivacyPolicyPage from '../pages/PrivacyPolicyPage/PrivacyPolicyPage'
+import ProjectDetailsPage from '../pages/ProjectDetailsPage/ProjectDetailsPage'
 
 class AppRouter extends Component {
   render() {
@@ -24,6 +25,7 @@ class AppRouter extends Component {
                 <Route path='/refund' element={<RefundPolicyPage />} />
                 <Route path='/terms' element={<TermsConditionPage />} />
                 <Route path='/privacy' element={<PrivacyPolicyPage />} />
+                <Route path='/projectdetails' element={<ProjectDetailsPage />} />
             </Routes>
         </Fragment>
     )

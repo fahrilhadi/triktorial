@@ -3,6 +3,7 @@ import { Button, Card, Col, Container, Row } from 'react-bootstrap'
 import learningManagementSystem from '../../assets/images/RecentProjectsImage/learning-management-system.jpg'
 import eCommerce from '../../assets/images/RecentProjectsImage/e-commerce.jpg'
 import digitalAgency from '../../assets/images/RecentProjectsImage/digital-agency.jpg'
+import { Link } from 'react-router-dom'
 
 class AllProjectsComponent extends Component {
   render() {
@@ -21,7 +22,7 @@ class AllProjectsComponent extends Component {
                                         <Card.Text className="serviceDescription">
                                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor, tempore?
                                         </Card.Text>
-                                        <Button variant="warning">Visit Website</Button>
+                                        <Button variant="warning"><Link className="linkStyle" to="/projectdetails">View More</Link></Button>
                                     </Card.Body>
                                 </Card>
                             </Col>
@@ -33,7 +34,7 @@ class AllProjectsComponent extends Component {
                                         <Card.Text className="serviceDescription">
                                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus, suscipit!
                                         </Card.Text>
-                                        <Button variant="warning">Visit Website</Button>
+                                        <Button variant="warning"><Link className="linkStyle" to="/projectdetails">View More</Link></Button>
                                     </Card.Body>
                                 </Card>
                             </Col>
@@ -45,7 +46,7 @@ class AllProjectsComponent extends Component {
                                         <Card.Text className="serviceDescription">
                                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda ullam soluta, nam laudantium aut nihil dolores?
                                         </Card.Text>
-                                        <Button variant="warning">Visit Website</Button>
+                                        <Button variant="warning"><Link className="linkStyle" to="/projectdetails">View More</Link></Button>
                                     </Card.Body>
                                 </Card>
                             </Col>
@@ -57,7 +58,7 @@ class AllProjectsComponent extends Component {
                                         <Card.Text className="serviceDescription">
                                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus, suscipit!
                                         </Card.Text>
-                                        <Button variant="warning">Visit Website</Button>
+                                        <Button variant="warning"><Link className="linkStyle" to="/projectdetails">View More</Link></Button>
                                     </Card.Body>
                                 </Card>
                             </Col>
@@ -69,7 +70,7 @@ class AllProjectsComponent extends Component {
                                         <Card.Text className="serviceDescription">
                                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda ullam soluta, nam laudantium aut nihil dolores?
                                         </Card.Text>
-                                        <Button variant="warning">Visit Website</Button>
+                                        <Button variant="warning"><Link className="linkStyle" to="/projectdetails">View More</Link></Button>
                                     </Card.Body>
                                 </Card>
                             </Col>
@@ -81,7 +82,7 @@ class AllProjectsComponent extends Component {
                                         <Card.Text className="serviceDescription">
                                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor, tempore?
                                         </Card.Text>
-                                        <Button variant="warning">Visit Website</Button>
+                                        <Button variant="warning"><Link className="linkStyle" to="/projectdetails">View More</Link></Button>
                                     </Card.Body>
                                 </Card>
                             </Col>
