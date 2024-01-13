@@ -1,6 +1,7 @@
-class AppURL {
+class AppUrl {
 
-    static BaseURL = 'http://127.0.0.1:8000/api';
+    // static BaseURL = 'http://127.0.0.1:8000/api';
+    static BaseURL = 'https://rapi.fahrilhadi.com/api';
 
     static HomeTopTitle = this.BaseURL+'/homepage/title';
     static HomeTechDesc = this.BaseURL+'/techhome';
@@ -22,6 +23,7 @@ class AppURL {
     static ContactSend = this.BaseURL+'/contactsend';
     static ClientReview = this.BaseURL+'/clientreview';
     static ChartData = this.BaseURL+'/chartdata';
+    
 }
 
-export default AppURL
+export default AppUrl

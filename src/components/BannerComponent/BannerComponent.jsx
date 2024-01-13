@@ -1,19 +1,26 @@
 import React, { Component, Fragment } from 'react'
 import { Button, Col, Container, Row } from 'react-bootstrap'
-import axios from 'axios';
+import RestClient from '../../RestAPI/RestClient';
+import AppUrl from '../../RestAPI/AppUrl';
 
 class BannerComponent extends Component {
-    componentDidMount(){
-        axios.get('http://127.0.0.1:8000/api/homepage/title')
-        .then(function (response) {
-            // handle success
-            console.log(response.data);
-        })
-        .catch(function (error) {
-            // handle error
-            console.log(error);
-        })
+
+    constructor(){
+        super();
+        this.state={
+            title:".....",
+            subtitle:"....."
+        }
     }
+
+    componentDidMount(){
+        RestClient.GetRequest(AppUrl.HomeTopTitle).then(result=>{
+            this.setState({title:result[0]['home_title'],subtitle:result[0]['home_subtitle']});
+        }).catch(error=>{
+            this.setState({title:"?????",subtitle:"?????"})
+        });
+    }
+
   render() {
     return (
         <Fragment>
@@ -22,8 +29,8 @@ class BannerComponent extends Component {
                     <Container className="bannerContent">
                         <Row>
                             <Col className="text-center">
-                                <h1 className="bannerTitle">Triktorial</h1>
-                                <h4 className="bannerSubTitle pb-3">Lorem ipsum dolor sit amet <span className="text-warning">consectetur.</span></h4>
+                                <h1 className="bannerTitle">{this.state.title}</h1>
+                                <h4 className="bannerSubTitle pb-3">{this.state.subtitle} <span className="text-warning">consectetur.</span></h4>
                                 <Button variant="outline-warning rounded-5" size="lg">Learn More</Button>
                             </Col>
                         </Row>
